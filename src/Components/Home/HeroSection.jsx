@@ -32,43 +32,43 @@ const HeroSection = () => {
   };
   return (
     <>
-      <Slider {...settings} className="mx-auto lg:max-w-7xl md:mt-12 my-12">
+      <Slider
+        {...settings}
+        className="mx-auto lg:max-w-7xl md:mt-12 my-12 italic"
+      >
         <div>
-          <div className="relative aspect-[4/2] m-4 mx-auto max-w-xs lg:max-w-sm overflow-hidden rounded-lg bg-black/60">
-            <img
-              src="https://www.reviewethio.com/wp-content/uploads/2018/11/Abi1.jpg"
-              className="absolute mix-blend-overlay"
-            />
-            <p className="w-full h-full text-white flex flex-col justify-end p-8 py-4">
-              <span className="text-lg font-semibold ">Abi Makeup & Hair </span>
-
-              <span className="text-sm">Addis Ababa, Lafto (4.5/5)</span>
-            </p>
-          </div>
-        </div>
-        <div>
-          <h3 className=" max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-green-800/45">
-            2
+          <h3 className="text-center flex items-center p-4 font-serif max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 ">
+            <span className="text-3xl text-white font-thin">
+              Find all your favorite service providers at one place
+            </span>
           </h3>
         </div>
         <div>
-          <h3 className=" max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-green-800/45">
-            3
+          <h3 className="text-center flex items-center p-4 font-serif max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 ">
+            <span className="text-3xl text-white font-thin">
+              Book your service and get notified on the day
+            </span>
           </h3>
         </div>
         <div>
-          <h3 className=" max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-green-800/45">
-            4
+          <h3 className="text-center flex items-center p-4 font-serif max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 ">
+            <span className="text-3xl text-white font-thin">
+              List your Services and accept appointmnets
+            </span>
           </h3>
         </div>
         <div>
-          <h3 className=" max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-green-800/45">
-            5
+          <h3 className="text-center flex items-center p-4 font-serif max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 ">
+            <span className="text-3xl text-white font-thin">
+              Manage all your service appointmnets at one place
+            </span>
           </h3>
         </div>
         <div>
-          <h3 className=" max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-green-800/45">
-            6
+          <h3 className="text-center flex items-center p-4 font-serif max-w-xs lg:max-w-sm aspect-[4/2] m-4  mx-auto rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 ">
+            <span className="text-3xl text-white font-thin">
+              Find all your favorite service providers at one place
+            </span>
           </h3>
         </div>
       </Slider>
